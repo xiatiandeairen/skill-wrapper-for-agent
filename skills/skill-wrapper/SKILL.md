@@ -1,11 +1,11 @@
 ---
-name: refactor
-description: 重构工具集。单入口路由分发。Use when user says "refactor", "重构", "压缩skill", "优化文档", or invokes /refactor.
+name: skill-wrapper
+description: Skill 开发工具集。Use when user says "skill-wrapper", "重构skill", "创建skill", "测试skill", or invokes /skill-wrapper.
 ---
 
-# Refactor
+# Skill Wrapper
 
-`/refactor {subcommand} [target]` → route → execute.
+`/skill-wrapper {subcommand} [target]` → route → execute.
 
 ## Subcommands
 
@@ -18,7 +18,7 @@ description: 重构工具集。单入口路由分发。Use when user says "refac
 ## Routing
 
 ```
-/refactor {input}
+/skill-wrapper {input}
 1. 第一个词匹配子命令名或alias？ → 进入对应流程
 2. 输入为 .md 文件路径？         → 默认 skill 子命令
 3. 否则                         → 显示帮助
@@ -32,8 +32,8 @@ description: 重构工具集。单入口路由分发。Use when user says "refac
 
 ### 输入
 
-- `/refactor skill {path}` — 指定文件路径
-- `/refactor skill` — 无路径时，`[STOP:choose]` 让用户提供路径或从当前目录选择 .md 文件
+- `/skill-wrapper skill {path}` — 指定文件路径
+- `/skill-wrapper skill` — 无路径时，`[STOP:choose]` 让用户提供路径或从当前目录选择 .md 文件
 
 ### Rules
 

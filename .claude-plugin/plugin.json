@@ -1,5 +1,5 @@
 {
-  "name": "refactor",
+  "name": "skill-wrapper",
   "version": "1.0.0",
-  "description": "重构引擎 — 单入口路由分发，支持 Skill 文档压缩、代码重构等子命令"
+  "description": "Skill 开发工具集 — 创建、测试、重构 Claude Code skill"
 }

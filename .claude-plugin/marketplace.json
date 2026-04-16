@@ -1,0 +1,28 @@
+{
+  "name": "skill-wrapper",
+  "owner": {
+    "name": "taoxia"
+  },
+  "metadata": {
+    "description": "Skill 开发工具集 — 创建、测试、重构 Claude Code skill"
+  },
+  "plugins": [
+    {
+      "name": "skill-wrapper",
+      "source": "./",
+      "description": "Skill 开发工具集",
+      "version": "1.0.0",
+      "author": {
+        "name": "taoxia"
+      },
+      "category": "workflow",
+      "tags": [
+        "skill",
+        "refactor",
+        "create",
+        "test",
+        "dev-tools"
+      ]
+    }
+  ]
+}
