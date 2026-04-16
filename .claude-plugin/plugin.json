@@ -1,5 +1,5 @@
 {
   "name": "skill-wrapper",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Skill 质量保障工具 — lint 指令缺陷、simulate 行为验证"
 }
